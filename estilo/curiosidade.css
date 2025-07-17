@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* 
+#FCF7DE
+#FACE0A
+#CCB44B
+#0808CD
+#181854
+#18182C
+*/
+
+body{
+    background-color: var(--cor1);
+    font-family: --font-padrao;
+    color: var(--cor1);
+}
+
+header{
+    background-image: linear-gradient(to top, var(--cor6), var(--cor4));
+    margin: -10px ;
+    padding: 10px 0px 2px 0px;
+    text-align: center;
+}
+header > h1{
+    color: var(--cor3);
+}
+header > p{
+    color: var(--cor2);
+}
+nav{
+    background-color: var(--cor6);
+    margin: -10px;
+    padding: 3px;
+    text-align: right;
+}
+nav > a{
+    margin: 10px;
+}
+:root{
+    --cor1:#FCF7DE;
+    --cor2:#FACE0A;
+    --cor3:#CCB44B;
+    --cor4:#0808CD;
+    --cor5:#181854;
+    --cor6:#18182C;
+
+    --font-padrao: Arial, Helvetica, sans-serif;
+}
+   
