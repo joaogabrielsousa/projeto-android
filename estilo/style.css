@@ -129,6 +129,10 @@ main img.pequena{
     display: block;
     margin: auto;
 }
+main img {
+    display: block;
+    margin: auto;
+}
 div.video{
     background-color: var(--cor0);
     margin-bottom: 5px;
